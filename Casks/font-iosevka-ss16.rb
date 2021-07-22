@@ -5,7 +5,12 @@ cask "font-iosevka-ss16" do
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-ss16-#{version}.zip"
   name "Iosevka SS16"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
-  homepage "https://github.com/be5invis/Iosevka/"
+  homepage "https://github.com/be5invis/iosevka/"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "iosevka-ss16-bold.ttc"
   font "iosevka-ss16-extrabold.ttc"

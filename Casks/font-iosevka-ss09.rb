@@ -5,7 +5,12 @@ cask "font-iosevka-ss09" do
   url "https://github.com/be5invis/Iosevka/releases/download/v#{version}/ttc-iosevka-ss09-#{version}.zip"
   name "Iosevka SS09"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
-  homepage "https://github.com/be5invis/Iosevka/"
+  homepage "https://github.com/be5invis/iosevka/"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
 
   font "iosevka-ss09-bold.ttc"
   font "iosevka-ss09-extrabold.ttc"

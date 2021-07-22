@@ -6,7 +6,7 @@ cask "font-iosevka-sparkle" do
   appcast "https://github.com/be5invis/Iosevka/releases.atom"
   name "Iosevka Sparkle"
   desc "Sans-serif, slab-serif, monospace and quasi‑proportional typeface family"
-  homepage "https://github.com/be5invis/Iosevka/"
+  homepage "https://github.com/be5invis/iosevka/"
 
   font "iosevka-sparkle-bold.ttc"
   font "iosevka-sparkle-extrabold.ttc"
